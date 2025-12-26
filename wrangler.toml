@@ -13,4 +13,7 @@ routes = [
 ]
 
 [observability.logs]
-enabled = true 
+enabled = true
+
+[vars]
+PROXY_SECRET_KEY = "1472F"
