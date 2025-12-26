@@ -1,6 +1,6 @@
 name = "roverse"
-main = "./build/worker.mjs"
-compatibility_date = "2024-04-15"
+main = "main.wasm"
+compatibility_date = "2025-01-01"
 
 routes = [
   { pattern = "games.${PROXY_DOMAIN}", custom_domain = true },
